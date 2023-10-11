@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memorama</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="main.js"></script>
+</head>
+<body>
+    <h1>Memorama de Gatos!</h1>
+    <div>
+        <div>
+        <!-- Cards -->
+            <div class="card "onclick="flipCard(this)">1</div>
+            <div class="card" onclick="flipCard(this)">2</div>
+            <div class="card" onclick="flipCard(this)">3</div>
+            <div class="card" onclick="flipCard(this)">4</div>
+        </div>
+        <div>
+            <div class="card" onclick="flipCard(this)">5</div>
+            <div class="card" onclick="flipCard(this)">6</div>
+            <div class="card" onclick="flipCard(this)">7</div>
+            <div class="card" onclick="flipCard(this)">8</div>
+        </div>
+        <div>
+            <div class="card" onclick="flipCard(this)">9</div>
+            <div class="card" onclick="flipCard(this)">10</div>
+            <div class="card" onclick="flipCard(this)">11</div>
+            <div class="card" onclick="flipCard(this)">12</div>
+        </div>
+        <div>
+            <div class="card" onclick="flipCard(this)">13</div>
+            <div class="card" onclick="flipCard(this)">14</div>
+            <div class="card" onclick="flipCard(this)">15</div>
+            <div class="card" onclick="flipCard(this)">16</div>
+        </div>
+        <div>
+            <div class="card" onclick="flipCard(this)">17</div>
+            <div class="card" onclick="flipCard(this)">18</div>
+            <div class="card" onclick="flipCard(this)">19</div>
+            <div class="card" onclick="flipCard(this)">20</div>
+        </div>
+    </div>
+    <h2>¿Comentarios?</h2>
+    <form action="submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" placeholder="Nombre">
+        <br>
+        <label for="feedback">Tu opinión:</label>
+        <br>
+        <textarea name="feedback" cols="40" rows="5" placeholder="Escribe aquí"></textarea>
+        <br> 
+        <input type="submit" value="Enviar!">
+    </form>
+</body>
+</html>
